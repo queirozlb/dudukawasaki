@@ -26,6 +26,11 @@ body {
   margin-bottom: 1px;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -129,27 +134,28 @@ p {
   color: black;
 }
 
-.descNews {
-  width: 80%;
-  height: 400px!important;
-  margin-top: 5%;
-}
-
 .moto {
-  display: inline-block;
+  flex: 1 1 150px;
+  display: flex;
+  flex-wrap: wrap;
   position: relative;
   width: 100%;
   height: 100%;
 }
 
 .click {
+  flex: 1 1 150px;
   display: flex;
+  flex-wrap:wrap;
   justify-content: space-between;
   width: 100%;
   margin: 1%;
 }
 
 .clickNews {
+  flex: 1 1 150px;
+  display: flex;
+  flex-wrap: wrap;
   margin: 2%;
   padding: 2%;
   width: 50%;
@@ -161,16 +167,23 @@ p {
 }
 
 .noticiasCards {
+  flex: 1 1 150px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
   margin: 1%;
 }
 
 .descNews {
+  flex: 1 1 150px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
   margin: 2%;
   padding: 2%;
-  width: 50%;
   text-align: center;
   background-color: #ffffff ;
   border-radius: 10px;
